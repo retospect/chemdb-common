@@ -7,7 +7,7 @@ name = "chemdb-common"
 version = "0.2.0"
 description = "Shared library for chemistry database MCP servers"
 requires-python = ">=3.11"
-license = "LGPL-3.0-or-later"
+license = "GPL-3.0-or-later"
 authors = [{name = "Reto Stamm", email = "reto@retostamm.com"}]
 keywords = ["chemistry", "mof", "catalysis", "database", "mcp"]
 dependencies = [
