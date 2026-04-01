@@ -66,7 +66,7 @@ class InvalidRangeError(ChemdbError):
     def __init__(self, field: str, raw: str):
         super().__init__(
             f'Could not parse {field}="{raw}"',
-            hint=f'Expected: "5", "3..9", ">5", "<12"',
+            hint='Expected: "5", "3..9", ">5", "<12"',
         )
 
 

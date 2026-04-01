@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-from chemdb.ranges import ParsedRange, RangeOp, parse_range
+from chemdb.ranges import RangeOp, parse_range
 
 
 class TestParseRange:

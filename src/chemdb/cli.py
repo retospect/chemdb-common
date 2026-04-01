@@ -75,7 +75,7 @@ def _show_status(config):
 
                 result = conn.execute(
                     text(
-                        f"SELECT source, synced_at, row_count FROM sync_log ORDER BY synced_at DESC LIMIT 5"
+                        "SELECT source, synced_at, row_count FROM sync_log ORDER BY synced_at DESC LIMIT 5"
                     )
                 )
                 rows = result.fetchall()
